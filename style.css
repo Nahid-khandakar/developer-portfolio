@@ -5,7 +5,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.faxible-container{
     display: flex;
     margin-bottom: 115px;
     
@@ -34,4 +34,36 @@ section{
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+
+.experience-item{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+.experience-box{
+
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+
+  }
+
+#box-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+
+}
+#box-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
