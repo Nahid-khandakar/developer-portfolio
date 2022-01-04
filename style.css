@@ -1,11 +1,13 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
 }
 section{
     display: flex;
+    margin-bottom: 115px;
     
 }
 .half-width{
@@ -24,6 +26,12 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
 }
-.backgroud-bg{
+.top-banner{
     background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
