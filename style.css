@@ -5,6 +5,19 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size :28px;
+}
+h3{
+    font-size:24px;
+}
+p{
+    font-size: 22px;
+}
+.orange-color{
+    color: orange;
+}
+
 .faxible-container{
     display: flex;
     margin-bottom: 115px;
@@ -17,6 +30,7 @@ h1{
 }
 .half-width img{
     width: 95%;
+    margin-top: 60px;
 }
 .link-button{
     text-decoration: none;
@@ -66,4 +80,8 @@ h1{
 }
 footer p{
     text-align: center;
+}
+
+.special{
+    padding-right: 70px;
 }
